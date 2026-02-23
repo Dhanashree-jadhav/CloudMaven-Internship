@@ -1,9 +1,0 @@
-student@DESKTOP-3GMCIP9:~$ sleep 300 &
-[1] 1511
-student@DESKTOP-3GMCIP9:~$ ps aux | grep sleep
-student   1511  0.0  0.0   3128  1012 pts/4    S    20:43   0:00 sleep 300
-student   1515  0.0  0.0   4092  1884 pts/4    S+   20:43   0:00 grep --color=auto sleep
-student@DESKTOP-3GMCIP9:~$ kill 1511
-student@DESKTOP-3GMCIP9:~$ ps aux | grep sleep
-student   1520  0.0  0.0   4092  1920 pts/4    S+   20:43   0:00 grep --color=auto sleep
-[1]+  Terminated              sleep 300
