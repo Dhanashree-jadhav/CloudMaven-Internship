@@ -1,0 +1,12 @@
+
+student@DESKTOP-3GMCIP9:~$ touch testfile.txt
+
+student@DESKTOP-3GMCIP9:~$ ls -l testfile.txt
+
+-rw-r--r-- 1 student student 0 Feb 23 20:30 testfile.txt
+
+student@DESKTOP-3GMCIP9:~$ chmod 700 testfile.txt
+
+student@DESKTOP-3GMCIP9:~$ ls -l testfile.txt
+
+-rwx------ 1 student student 0 Feb 23 20:30 testfile.txt
