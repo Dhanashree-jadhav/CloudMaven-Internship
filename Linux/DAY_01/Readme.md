@@ -120,6 +120,8 @@ Force Kill (if needed):
 
 kill -9 1234
 ```
+<img width="1917" height="203" alt="image" src="https://github.com/user-attachments/assets/941e0f76-97ae-4f75-aafd-1dcd71f97088" />
+
 
 # 🧪 Lab 4 – Editing Files Using Vim
 ```bash
