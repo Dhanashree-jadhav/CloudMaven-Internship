@@ -84,6 +84,8 @@ cat testfile.txt
 
 📌 Verifies whether permissions work correctly.
 ```
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d5d6ebf0-1f47-479b-a70a-0113c4a616bf" />
+
 
 # 🧪 Lab 3 – Process Control
 ```bash
