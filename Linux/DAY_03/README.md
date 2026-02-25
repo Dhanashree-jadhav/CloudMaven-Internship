@@ -38,11 +38,7 @@ traceroute google.com
 ```bash
 dig google.com
 
-<img width="1919" height="465" alt="image" src="https://github.com/user-attachments/assets/87675ffa-4f48-4da7-aa82-b53c912da99b" />
-
  dig abcxyz12345testdomain.com
-
-<img width="1914" height="480" alt="image" src="https://github.com/user-attachments/assets/91efc76e-3f68-433c-a936-ebb933b857ba" />
 
  nslookup google.com
 ```
@@ -54,8 +50,6 @@ dig google.com
 ```bash
 
 Install Nginx
-
-<img width="1915" height="61" alt="image" src="https://github.com/user-attachments/assets/0d8b7261-85a6-488a-aed5-8622ccdcdaf2" />
 
 echo "Hello from my server - Dhanashree DevOps Lab" | sudo tee /var/www/html/index.html
 
