@@ -8,10 +8,10 @@ hostname -I
 
 My IP Address: 172.25.155.54
 Network Interface: eth0
-
+```
 <img width="1919" height="601" alt="image" src="https://github.com/user-attachments/assets/755f707f-4c9a-40ba-9762-63015afce129" />
 
-```
+
 # 🔹 Task 2 — Test Internet Connectivity Flow
 
 ### 3️⃣ Test Connectivity
@@ -26,12 +26,12 @@ ping google.com 1
 
 3.Trace the route:
 traceroute google.com
-
+```
 <img width="1919" height="469" alt="image" src="https://github.com/user-attachments/assets/136e81f8-9a50-4949-80ab-d811d2b25c3e" />
 
 <img width="1919" height="302" alt="image" src="https://github.com/user-attachments/assets/e7668e72-b58c-4e64-8eee-abab7496a513" />
 
-```
+
 
 # 🔹 Task 3 — Analyze DNS in Detail
 
