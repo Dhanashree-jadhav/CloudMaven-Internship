@@ -45,10 +45,10 @@ dig google.com
 <img width="1914" height="480" alt="image" src="https://github.com/user-attachments/assets/91efc76e-3f68-433c-a936-ebb933b857ba" />
 
  nslookup google.com
-
+```
 <img width="1919" height="229" alt="image" src="https://github.com/user-attachments/assets/215689ae-fbe8-4403-90cd-d20601845d0c" />
 
-```
+
 # 🔹 Task 4 — Host a Simple Website Locally
 
 ```bash
@@ -60,23 +60,23 @@ Install Nginx
 echo "Hello from my server - Dhanashree DevOps Lab" | sudo tee /var/www/html/index.html
 
 curl http://localhost
-
+```
 <img width="1918" height="1042" alt="day_3_task_4" src="https://github.com/user-attachments/assets/2354fdd8-cd59-42d6-8cca-b845f1446a1c" />
-
+```
 curl -I http://localhost
-
+```
 <img width="1919" height="356" alt="image" src="https://github.com/user-attachments/assets/5fbb1c11-99a7-4468-947d-0f8fae90f81f" />
 
-```
+
 # 🔹 Task 5 — Check Listening Ports
 
 ```bash
 sudo systemctl stop nginx
 
 ss -tuln | grep 80
-
-<img width="1919" height="53" alt="image" src="https://github.com/user-attachments/assets/0e1de6fb-44d3-4fb4-942a-51d2c5475630" />
 ```
+<img width="1919" height="53" alt="image" src="https://github.com/user-attachments/assets/0e1de6fb-44d3-4fb4-942a-51d2c5475630" />
+
 
 # 🔹 Task 6 — Test Application Connectivity
 
@@ -87,15 +87,15 @@ Fetch HTTP headers:
   curl -I http://localhost
 
 Observe status code and server response.
-
+```
 <img width="1918" height="388" alt="image" src="https://github.com/user-attachments/assets/87722d99-d7b9-453c-afe8-adb22e228915" />
-
+```
 Download content:
   wget http://localhost
-
+```
 <img width="1919" height="255" alt="image" src="https://github.com/user-attachments/assets/70e449de-871a-41fc-a1b7-e0c53511193b" />
 
-```
+
 # 🔹 Task 7 — Simulate a Firewall Restriction (UFW)
 
 ```bash
@@ -118,11 +118,8 @@ sudo ufw deny 22
 ✔ Web still accessible
 
 sudo ufw status
-
-<img width="1918" height="945" alt="image" src="https://github.com/user-attachments/assets/f9f946e5-f46b-49a4-876c-52886495b952" />
-
 ```
-
+<img width="1918" height="945" alt="image" src="https://github.com/user-attachments/assets/f9f946e5-f46b-49a4-876c-52886495b952" />
 
 # 🔹 Task 8 — Create a Local Domain Using /etc/hosts
 
@@ -139,11 +136,10 @@ curl http://mytest.local
 
 ✔ Resolved to 127.0.0.1
 ✔ Website loaded successfully
-
+```
 <img width="1919" height="532" alt="image" src="https://github.com/user-attachments/assets/0f6a91c9-bdd5-425f-9d23-a9d931c93f5c" />
 
 
-```
 
 
 
