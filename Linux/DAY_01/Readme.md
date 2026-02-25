@@ -151,4 +151,6 @@ Then type:
 
 Press Enter.
 ```
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/da360927-7dc1-436d-b0a1-32142fba63d7" />
+
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/184c4c39-a613-404b-9c02-bf4327585ed3" />
