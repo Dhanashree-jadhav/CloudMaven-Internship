@@ -33,7 +33,8 @@ Expected Output:
 
 📌 Confirms that the user has a proper home directory.
 ```
-Linux/DAY_01/lab_1.png
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c89a1f72-a3ce-4351-aa86-b04194021bb7" />
+
 
 # 🧪 Lab 2 – File Permissions & Ownership
 ```bash
