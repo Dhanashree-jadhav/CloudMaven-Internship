@@ -249,3 +249,41 @@ Otherwise prints OK and exits with 0.
 <img width="1915" height="90" alt="image" src="https://github.com/user-attachments/assets/e657dbe4-6fff-4814-8d79-6b172a47529a" />
 <img width="1903" height="325" alt="image" src="https://github.com/user-attachments/assets/806cf10c-4d5c-4854-a82d-4c2ef72f9d87" />
 
+# Bonus
+```bash
+Difference between stdout and stderr
+
+In Linux, every command gives output through streams.
+
+stdout (standard output) is the normal output of a command.
+Example:
+
+echo "Hello"
+
+This prints Hello. That is stdout.
+
+stderr (standard error) is the error message shown when a command fails.
+Example:
+
+ls wrongfile
+
+This shows an error message. That is stderr.
+
+Redirection examples:
+
+Redirect normal output:
+
+echo "Hello" > out.txt
+
+Redirect error output:
+
+ls wrongfile 2> error.txt
+
+Here:
+> redirects stdout
+2> redirects stderr
+
+Cron vs Systemd Timer (one line)
+
+Cron is a simple time-based job scheduler, while systemd timers are more advanced and provide better logging and control.
+```
