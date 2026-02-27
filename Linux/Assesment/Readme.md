@@ -247,3 +247,5 @@ If usage > 80% → prints error to stderr and exits with code 1.
 Otherwise prints OK and exits with 0.
 ```
 <img width="1915" height="90" alt="image" src="https://github.com/user-attachments/assets/e657dbe4-6fff-4814-8d79-6b172a47529a" />
+<img width="1903" height="325" alt="image" src="https://github.com/user-attachments/assets/806cf10c-4d5c-4854-a82d-4c2ef72f9d87" />
+
