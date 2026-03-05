@@ -1,4 +1,7 @@
 # Git Practical – DevOps Learning
+# Date : 5 march
+# Name : Dhanashree Jadhav
+# practice repo : https://github.com/Dhanashree-jadhav/git-practical.git
 
 This repository demonstrates real-world Git scenarios and how to handle them properly in a team environment.
 
@@ -61,15 +64,10 @@ git push --force
 
 ---
 
-# 📄 SCENARIO-3.md
-
-Create a file named **SCENARIO-3.md** and paste this:
-
-```markdown
 # 🔥 Scenario 3 – Merge Conflict Handling
 
 ## 📌 Situation
-
+```bash
 1. Created branch `feature/payment`
 2. Modified `app.txt`
 3. Committed changes
@@ -77,10 +75,12 @@ Create a file named **SCENARIO-3.md** and paste this:
 5. Modified the SAME file
 6. Tried merging `feature/payment` into `main`
 7. Merge conflict occurred
-
+```
 ---
 
 ## 💥 Conflict Message
-```
+
 <img width="1207" height="768" alt="image" src="https://github.com/user-attachments/assets/ea1b3fad-c23b-49f6-b973-a1fb197383e1" />
 <img width="1211" height="770" alt="image" src="https://github.com/user-attachments/assets/49f6416c-23a5-49a0-b8a3-6b9f5b262351" />
+
+```
