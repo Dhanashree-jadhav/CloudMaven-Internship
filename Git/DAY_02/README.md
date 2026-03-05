@@ -76,6 +76,15 @@ git push --force
 6. Tried merging `feature/payment` into `main`
 7. Merge conflict occurred
 ```
+# When you get a merge conflict, Git temporarily stores 3 versions of the file internally.
+
+# During a merge conflict, Git keeps:
+
+```bash Version	Meaning
+Ours	Current branch version (where you are)
+Theirs	Incoming branch version (the branch you're merging)
+Base	Common ancestor version
+```
 ---
 
 ## 💥 Conflict Message
