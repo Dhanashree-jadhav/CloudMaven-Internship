@@ -1,4 +1,4 @@
-#task 1 : Test all NGINX management commands
+# task 1 : Test all NGINX management commands
 Install NGINX and confirm the welcome page loads at http://localhost.
 Run each management command (start, stop, restart, reload, enable) and note what happens
 to the service each time.
