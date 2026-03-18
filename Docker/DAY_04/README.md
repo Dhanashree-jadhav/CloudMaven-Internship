@@ -109,7 +109,7 @@ Screenshot:
 
 ![MySQL Persistence](screenshots/persiste_data_mysql.png)
 
----
+
 
 # 5. Create Custom Docker Network
 
