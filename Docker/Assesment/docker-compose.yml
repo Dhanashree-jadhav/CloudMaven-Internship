@@ -1,0 +1,43 @@
+version: "3.8"
+
+services:
+  app:
+    image: dhanuj1611/library-app:v1
+    container_name: flask-app
+    restart: always
+    depends_on:
+      - mysql
+    environment:
+      - DB_HOST=mysql
+    networks:
+      - mynetwork
+
+  mysql:
+    image: mysql:5.7
+    container_name: mysql
+    restart: always
+    env_file:
+      - .env
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - mynetwork
+
+  nginx:
+    image: nginx:latest
+    container_name: nginx
+    restart: always
+    ports:
+      - "8080:80"
+    volumes:
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf   
+    depends_on:
+      - app
+    networks:
+      - mynetwork
+
+volumes:
+  mysql_data:
+
+networks:
+  mynetwork:
