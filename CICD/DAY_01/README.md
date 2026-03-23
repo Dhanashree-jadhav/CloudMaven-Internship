@@ -135,22 +135,27 @@ Faster development and release
 
 In my project, I used GitHub Actions to implement CI/CD. When code is pushed, the pipeline automatically builds a Docker image for the Node.js application and pushes it to Docker Hub. This automates the build and deployment process and ensures consistency.
 
-Developer
-   │
-   │ Push Code
-   ▼
-GitHub Repository
-   │
-   │ Triggers Workflow
-   ▼
-GitHub Actions Pipeline
-   │
-   ├── Checkout Code
-   ├── Build Docker Image
-   ├── Login to Docker Hub
-   └── Push Image
-   ▼
-Docker Hub (Image Registry)
-   │
-   ▼
-Application Ready for Deployment
+           Developer
+               │
+               │ Push Code
+               ▼
+      GitHub Repository
+               │
+               │ Triggers Workflow
+               ▼
+   GitHub Actions Pipeline
+               │
+   ┌───────────┼───────────┐
+   │           │           │
+   ▼           ▼           ▼
+Checkout   Build Docker   Login to
+  Code        Image      Docker Hub
+                               │
+                               ▼
+                        Push Image
+                               │
+                               ▼
+                  Docker Hub (Registry)
+                               │
+                               ▼
+                Ready for Deployment
