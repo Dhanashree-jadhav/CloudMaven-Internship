@@ -74,3 +74,80 @@ Monitoring ensures system health
 - CI pipeline executed successfully
 - All steps completed successfully
 - Execution time: ~6 seconds
+
+# CI/CD Pipeline - Node.js Project
+## 📌 What is CI/CD?
+
+CI/CD stands for:
+
+Continuous Integration (CI): Automatically builds and tests code when changes are pushed
+Continuous Deployment (CD): Automatically prepares or deploys the application
+
+The main goal is to automate the software delivery process and reduce manual work.
+
+## ⚙️ CI/CD in My Project
+
+In this project, I implemented a CI/CD pipeline for a Node.js application using:
+
+GitHub Actions
+Docker
+Docker Hub
+
+Whenever code is pushed to the repository, the pipeline runs automatically.
+
+# 🔄 Pipeline Flow
+Developer → Push Code → GitHub Actions Triggered
+→ Checkout Code → Build Docker Image
+→ Login to Docker Hub → Push Image
+→ Application Ready for Deployment
+🛠️ Step-by-Step Explanation
+# 1. Code Push (Trigger)
+
+When code is pushed to the main/master branch, the workflow starts automatically.
+
+on:
+  push:
+    branches: [ main ]
+# 2. Continuous Integration (CI)
+Checkout the latest code
+Build Docker image
+docker build -t username/node-js-app:latest .
+
+This ensures the app runs in a consistent environment.
+
+# 3. Authentication
+
+The pipeline logs into Docker Hub using GitHub Secrets.
+
+docker login
+# 4. Continuous Deployment (CD)
+Push Docker image to Docker Hub
+docker push username/node-js-app:latest
+
+Now the application is ready for deployment.
+
+✅ Benefits
+Automates build and deployment
+Reduces manual errors
+Ensures consistent environments
+Faster development and release
+🎯 Short Interview Explanation
+
+In my project, I used GitHub Actions to implement CI/CD. When code is pushed, the pipeline automatically builds a Docker image for the Node.js application and pushes it to Docker Hub. This automates the build and deployment process and ensures consistency.
+
+📊 Diagram
+Developer
+   │
+   ▼
+GitHub Repo (Push)
+   │
+   ▼
+GitHub Actions Pipeline
+   ├── Checkout Code
+   ├── Build Docker Image
+   ├── Login to Docker Hub
+   └── Push Image
+   ▼
+Docker Hub
+   ▼
+Ready for Deployment
