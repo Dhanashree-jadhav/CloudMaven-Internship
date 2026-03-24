@@ -1,5 +1,7 @@
 # 🚀 CI/CD Workflow Assignment - GitHub Actions
 
+### ci.yml file : https://github.com/Dhanashree-jadhav/cicd-practice/blob/main/.github/workflows/ci.yml
+
 ## 📌 Overview
 
 This project demonstrates the implementation of a **CI/CD pipeline using GitHub Actions**.
