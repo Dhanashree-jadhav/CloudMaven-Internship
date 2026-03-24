@@ -2,6 +2,8 @@
 
 ### ci.yml file : https://github.com/Dhanashree-jadhav/cicd-practice/blob/main/.github/workflows/ci.yml
 
+## PR Validation Done : Screenshots are added
+
 ## 📌 Overview
 
 This project demonstrates the implementation of a **CI/CD pipeline using GitHub Actions**.
