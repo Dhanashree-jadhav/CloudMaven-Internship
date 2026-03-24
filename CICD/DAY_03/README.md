@@ -1,8 +1,8 @@
 # 🚀 CI/CD Reusable Workflow Assignment (GitHub Actions)
 
-# shared-workflows repo link : https://github.com/Dhanashree-jadhav/shared-workflows.git
+### shared-workflows repo link : https://github.com/Dhanashree-jadhav/shared-workflows.git
 
-# use-shared-ci.yml file : https://github.com/Dhanashree-jadhav/cicd-practice/blob/main/.github/workflows/use-shared-ci.yml
+### use-shared-ci.yml file : https://github.com/Dhanashree-jadhav/cicd-practice/blob/main/.github/workflows/use-shared-ci.yml
 
 ## 📌 Overview
 
@@ -95,6 +95,7 @@ jobs:
 ---
 
 <img width="1917" height="962" alt="sh1" src="https://github.com/user-attachments/assets/cafaba15-0a84-429f-95aa-cfafe3837d1d" />
+<img width="1915" height="972" alt="sh2" src="https://github.com/user-attachments/assets/a0563695-5d09-44a4-8eca-2ea2a2d197f3" />
 
 
 ## 🔄 Reusability Demonstration
