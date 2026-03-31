@@ -1,5 +1,7 @@
 # 🚀 Prometheus + Grafana Monitoring with Docker Compose
 
+## Prometheus + Grafana Monitoring with Docker : https://github.com/Dhanashree-jadhav/prometheus-grafana-monitoring.git
+
 ## 📌 Project Overview
 
 This project demonstrates how to set up a **complete monitoring system** using **Prometheus** and **Grafana** to track and visualize metrics from a simple Node.js application.
