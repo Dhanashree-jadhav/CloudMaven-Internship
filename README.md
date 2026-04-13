@@ -23,3 +23,11 @@ Week 3 - Docker
 - Day 4 - Docker Volumes and types of volumes
 
 -------------------------------------------------------------------------
+
+Week 4 - CI/CD
+- Day 1 - CI/CD Fundamentals - GitHub Actions
+- Day 2 - GitHub Actions Workflow
+- Day 3 - CI Practices & Pipeline Optimization
+- Day 4 - GitHub Shared WorkFlows
+
+--------------------------------------------------------------------------
